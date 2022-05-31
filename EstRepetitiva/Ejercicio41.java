@@ -1,4 +1,11 @@
-import java.util.Scanner;
+public static int fibonacciR(int n) {
+    if (n>1){
+     return fibonacciR(n-1)+fibonacciR(n-2);
+    }
+    return n;
+    
+}
+
 
 /**
  * Ejercicio41
