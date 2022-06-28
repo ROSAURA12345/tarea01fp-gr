@@ -56,6 +56,8 @@ public class transformadasMatriz {
     public static void main(String[] args) {
         //new transformadasMatriciz().transformada01();
         
+
+        
     }
     
 }
