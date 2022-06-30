@@ -1,0 +1,2 @@
+C1	Laptops
+C2	Audifonos

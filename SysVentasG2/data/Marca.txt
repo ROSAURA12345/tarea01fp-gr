@@ -1,0 +1,2 @@
+C1	Intel
+C2	AMD
