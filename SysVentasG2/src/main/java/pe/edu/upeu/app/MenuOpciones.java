@@ -7,6 +7,7 @@ import pe.edu.upeu.dao.ClienteDao;
 import pe.edu.upeu.dao.MarcaDao;
 import pe.edu.upeu.dao.ProductoDao;
 import pe.edu.upeu.dao.UsuarioDao;
+import pe.edu.upeu.dao.VentaDao;
 import pe.edu.upeu.modelo.UsuarioTO;
 import pe.edu.upeu.util.LeerTeclado;
 
@@ -39,6 +40,7 @@ public class MenuOpciones {
         menu += "3=Crear Categoria\n";
         menu += "4=Crear Marca\n";
         menu += "5=Crear Cliente\n6=crear Producto\n7=listar Productos\n";
+        menu += "8=Registro de ventas";
         
         System.out.println(menu);
         do {
@@ -50,6 +52,7 @@ public class MenuOpciones {
                 case 5: new ClienteDao().crearCliente(); break;
                 case 6: new ProductoDao().CrearProducto();break;
                 case 7: new ProductoDao().CrearProducto();break;  
+                case 8:new VentaDao().registroVentaGeneral();break;
 
                 default: System.out.println("Opcion Invalida!"); break;
             }
