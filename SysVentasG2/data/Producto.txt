@@ -1,0 +1,2 @@
+P1	Laptop 55454	C1	C1	3000.0	300.0	12
+P2	Tarjeta de Video	C1	C1	200.0	20.0	-2
