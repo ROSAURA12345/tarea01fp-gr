@@ -2,3 +2,5 @@ davidmp	123456
 dario	d123456
 frack	123456
 fabrizio	f123456
+dario	d123456
+davidmp	123456
